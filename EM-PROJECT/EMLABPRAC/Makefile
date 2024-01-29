@@ -1,0 +1,19 @@
+# MPLAB IDE generated this makefile for use with GNU make.
+# Project: emlab.asm.mcp
+# Date: Tue Nov 15 00:27:54 2022
+
+AS = MPASMWIN.exe
+CC = 
+LD = mplink.exe
+AR = mplib.exe
+RM = rm
+
+Labsheet2.cof : ../../../Downloads/New\ folder\ (2)/Exp2(1)/Labsheet2.o
+	$(CC) /p16F84A "..\..\..\Downloads\New folder (2)\Exp2(1)\Labsheet2.o" /u_DEBUG /z__MPLAB_BUILD=1 /z__MPLAB_DEBUG=1 /o"Labsheet2.cof" /M"Labsheet2.map" /W /x
+
+../../../Downloads/New\ folder\ (2)/Exp2(1)/Labsheet2.o : Labsheet2.asm ../../../../../Program\ Files\ (x86)/Microchip/MPASM\ Suite/p16f84a.inc
+	$(AS) /q /p16F84A "Labsheet2.asm" /l"Labsheet2.lst" /e"Labsheet2.err" /d__DEBUG=1
+
+clean : 
+	$(CC) "..\..\..\Downloads\New folder (2)\Exp2(1)\Labsheet2.o" "..\..\..\Downloads\New folder (2)\Exp2(1)\Labsheet2.hex" "..\..\..\Downloads\New folder (2)\Exp2(1)\Labsheet2.err" "..\..\..\Downloads\New folder (2)\Exp2(1)\Labsheet2.lst" "Labsheet2.cof"
+

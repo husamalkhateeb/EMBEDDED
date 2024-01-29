@@ -1,0 +1,62 @@
+MPASM  5.37                         EMLAB.ASM   1-19-2023  12:42:50         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+Warning[205]: Found directive in column 1. (cblock)
+                      00001 cblock 0x20
+  00000020            00002 regs
+  00000021            00003 gers
+                      00004 
+Warning[205]: Found directive in column 1. (ENDC)
+                      00005 endc
+                      00006 
+Warning[203]: Found opcode in column 1. (movlw)
+0000   300B           00007 movlw 0x0B
+Warning[203]: Found opcode in column 1. (movwf)
+0001   00A0           00008 movwf regs
+Warning[203]: Found opcode in column 1. (movlw)
+0002   3002           00009 movlw 0x02
+Warning[203]: Found opcode in column 1. (movwf)
+0003   00A1           00010 movwf gers
+                      00011 
+Message[305]: Using default destination of 1 (file).
+0004   0BA0           00012 L1 decfsz regs
+Warning[203]: Found opcode in column 1. (Goto)
+0005   2804           00013 Goto L1
+Warning[203]: Found opcode in column 1. (Decfsz)
+Message[305]: Using default destination of 1 (file).
+0006   0BA1           00014 Decfsz gers
+Warning[203]: Found opcode in column 1. (Goto)
+0007   2804           00015 Goto L1
+Warning[205]: Found directive in column 1. (end)
+                      00016 end
+MPASM  5.37                         EMLAB.ASM   1-19-2023  12:42:50         PAGE  2
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+L1                                00000004
+__16F877A                         00000001
+__DEBUG                           1
+gers                              00000021
+regs                              00000020
+
+
+MEMORY USAGE MAP ('X' = Used,  '-' = Unused)
+
+0000 : XXXXXXXX-------- ---------------- ---------------- ----------------
+
+All other memory blocks unused.
+
+Program Memory Words Used:     8
+Program Memory Words Free:  8184
+
+
+Errors   :     0
+Warnings :    10 reported,     0 suppressed
+Messages :     2 reported,     0 suppressed
+
+

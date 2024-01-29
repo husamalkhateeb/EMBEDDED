@@ -1,0 +1,12 @@
+Warning[205] C:\USERS\MYNAM\ONEDRIVE\DOCUMENTS\EMLABPRAC\EMLAB.ASM 1 : Found directive in column 1. (cblock)
+Warning[205] C:\USERS\MYNAM\ONEDRIVE\DOCUMENTS\EMLABPRAC\EMLAB.ASM 5 : Found directive in column 1. (ENDC)
+Warning[203] C:\USERS\MYNAM\ONEDRIVE\DOCUMENTS\EMLABPRAC\EMLAB.ASM 7 : Found opcode in column 1. (movlw)
+Warning[203] C:\USERS\MYNAM\ONEDRIVE\DOCUMENTS\EMLABPRAC\EMLAB.ASM 8 : Found opcode in column 1. (movwf)
+Warning[203] C:\USERS\MYNAM\ONEDRIVE\DOCUMENTS\EMLABPRAC\EMLAB.ASM 9 : Found opcode in column 1. (movlw)
+Warning[203] C:\USERS\MYNAM\ONEDRIVE\DOCUMENTS\EMLABPRAC\EMLAB.ASM 10 : Found opcode in column 1. (movwf)
+Message[305] C:\USERS\MYNAM\ONEDRIVE\DOCUMENTS\EMLABPRAC\EMLAB.ASM 12 : Using default destination of 1 (file).
+Warning[203] C:\USERS\MYNAM\ONEDRIVE\DOCUMENTS\EMLABPRAC\EMLAB.ASM 13 : Found opcode in column 1. (Goto)
+Warning[203] C:\USERS\MYNAM\ONEDRIVE\DOCUMENTS\EMLABPRAC\EMLAB.ASM 14 : Found opcode in column 1. (Decfsz)
+Message[305] C:\USERS\MYNAM\ONEDRIVE\DOCUMENTS\EMLABPRAC\EMLAB.ASM 14 : Using default destination of 1 (file).
+Warning[203] C:\USERS\MYNAM\ONEDRIVE\DOCUMENTS\EMLABPRAC\EMLAB.ASM 15 : Found opcode in column 1. (Goto)
+Warning[205] C:\USERS\MYNAM\ONEDRIVE\DOCUMENTS\EMLABPRAC\EMLAB.ASM 16 : Found directive in column 1. (end)

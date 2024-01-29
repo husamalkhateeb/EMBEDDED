@@ -1,0 +1,31 @@
+MPLINK 4.37, Linker
+Linker Map File - Created Thu Jan 19 12:42:51 2023
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000010
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000007      
+            8 out of 8453 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                       L1   0x000004    program     static C:\Users\mynam\OneDrive\Documents\EMLABPRAC\emlab.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                       L1   0x000004    program     static C:\Users\mynam\OneDrive\Documents\EMLABPRAC\emlab.asm
+
+
